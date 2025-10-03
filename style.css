@@ -1,0 +1,57 @@
+/* Flexbox for food section */
+.food-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 300px;
+}
+.food-flex ul {
+  margin: 10px;
+  padding: 30px;
+  list-style-position: inside;
+}
+.food-flex img {
+  float: none;
+  display: block;
+  margin: 3px;
+  border: #000000 solid 2px;
+}
+/* Base page styles*/
+body {
+font-family: Lora, serif;
+margin: 20px;
+background-color: #fb9bb9; /* Light pink background */
+}
+/* Headings*/
+h1 {
+color: #f96995; /* Darker pink color */
+}
+h2 {
+color: #f96995; /* Darker pink shade */
+margin-bottom: 4px;
+}
+h3 {
+color: #000000; /* black */
+text-align: centered;
+}
+/* Paragraphs */
+p {
+color: #000000;
+font-size: 15px;
+}
+/* Section containers */
+section {
+border: 5px solid #fa82a7; /* Change border color or remove */
+padding: 13px; /* Change padding or remove */
+margin-bottom: 20px;
+margin-top: 20px;
+margin-right: 75px;
+margin-left: 75px;
+background: white;
+overflow: hidden; /* Contains floated elements like img */
+}
+img {
+  display: block;
+  border: #000000 solid 2px;
+  float: right;
+}
